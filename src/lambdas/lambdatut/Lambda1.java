@@ -5,7 +5,8 @@ public class Lambda1 {
     public static void main(String[] args) {
 
         /*
-         * Here no need to create a class, happens in line
+         * Lambda Expression:
+         * Here there is no need to create a class.
          * It's just like creating an anonymous inner class, although its's a bit different
          *
          * It avoids creating a new class for the implementation
