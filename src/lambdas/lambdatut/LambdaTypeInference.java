@@ -1,11 +1,18 @@
 package lambdas.lambdatut;
 
-public class LambdaTypeInference{
+import java.util.Arrays;
+import java.util.List;
+
+@SuppressWarnings("ALL")
+public class LambdaTypeInference {
     public static void main(String[] args) {
 
-        /*
-         * It looks at the left side to know the type to return
-         */
+        List<Integer> numberList = Arrays.asList(1, 2, 3, 4, 5, 6);
+
+        // Compiler knows that n is an integer by looking at the list's type
+        numberList.forEach(n -> System.out.println(n));
+        numberList.forEach(System.out::println); // since n -> sout(n) has the same parameters use method reference
+
         AddTwoStrings addTwoStrings = (s1, s2) -> s1 + s2;
         printLambdaString(addTwoStrings);
 
@@ -25,7 +32,7 @@ public class LambdaTypeInference{
         R apply(T1 number1, T2 number2);
     }
 
-    private static void printLambdaString(AddTwoStrings addTwoStrings){
+    private static void printLambdaString(AddTwoStrings addTwoStrings) {
         System.out.println(addTwoStrings.apply("Hello", " World"));
     }
 }

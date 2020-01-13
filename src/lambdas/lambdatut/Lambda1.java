@@ -9,6 +9,7 @@ public class Lambda1 {
          * Here there is no need to create a class.
          * It's just like creating an anonymous inner class, although its's a bit different
          *
+         * There are no anonymous inner classes created when using lambda expressions
          * It avoids creating a new class for the implementation
          */
 
