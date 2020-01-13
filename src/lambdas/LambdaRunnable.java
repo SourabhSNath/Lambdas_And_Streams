@@ -1,4 +1,4 @@
-package lambdas.lambdatut;
+package lambdas;
 
 public class LambdaRunnable {
     public static void main(String[] args) {

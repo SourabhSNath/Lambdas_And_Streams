@@ -1,4 +1,4 @@
-package lambdas.lambdatut;
+package lambdas;
 
 public class LambdaClosure {
     public static void main(String[] args) {

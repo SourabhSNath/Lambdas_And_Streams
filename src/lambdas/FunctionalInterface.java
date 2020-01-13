@@ -1,4 +1,4 @@
-package lambdas.lambdatut;
+package lambdas;
 
 /**
  * A functional interface is any interface which ONLY HAS ONE ABSTRACT METHOD WITHIN IT.

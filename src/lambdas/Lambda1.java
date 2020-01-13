@@ -1,4 +1,4 @@
-package lambdas.lambdatut;
+package lambdas;
 
 public class Lambda1 {
 

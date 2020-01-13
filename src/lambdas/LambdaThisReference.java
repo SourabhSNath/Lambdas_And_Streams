@@ -1,4 +1,4 @@
-package lambdas.lambdatut;
+package lambdas;
 
 public class LambdaThisReference {
 
@@ -23,7 +23,7 @@ public class LambdaThisReference {
             @Override
             public void process(int i1) {
                 System.out.println(i1 + 10);
-                System.out.println(this); //lambdas.lambdatut.LambdaThisReference$1@2d209079
+                System.out.println(this); //lambdas.LambdaThisReference$1@2d209079
                 // This happens to be the instance of the anonymous inner class we created
                 // this reference points to the new Process we created
             }

@@ -1,4 +1,4 @@
-package lambdas.lambdatut;
+package lambdas;
 
 import lambdas.lambdaexercises.Person;
 
